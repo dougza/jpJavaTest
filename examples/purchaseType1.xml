@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Purchases>
+	<Purchase>
+		<productType>Apple</productType>
+		<value>1</value>
+	</Purchase>
+	<Purchase>
+		<productType>Samsung</productType>
+		<value>1</value>
+	</Purchase>
+</Purchases>

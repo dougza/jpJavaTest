@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Purchases>
+	<Purchase>
+		<productType>Apple</productType>
+		<value>1</value>
+		<action>add</action>
+	</Purchase>
+	<Purchase>
+		<productType>Samsung</productType>
+		<value>1</value>
+		<action>subtract</action>
+	</Purchase>
+</Purchases>
