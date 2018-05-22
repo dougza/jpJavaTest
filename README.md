@@ -4,7 +4,7 @@ This is my solution for JP Morgan Test. This program process some messages send 
 
 # How to run the solution
 
-It is necessary Java 1.8 version.
+It is necessary Java 1.8 version to run the application.
 
 Execute the command: mvn clean install
 
@@ -19,3 +19,47 @@ The program will request some information: the path where the files will be plac
 There are some examples of files on folder examples.
 
 # Messagege Type 1 - Format
+
+<?xml version="1.0"?>
+<Purchases>
+	<Purchase>
+		<productType>Apple</productType>
+		<value>1</value>
+	</Purchase>
+	<Purchase>
+		<productType>Samsung</productType>
+		<value>1</value>
+	</Purchase>
+</Purchases>
+
+# Messagege Type 2 - Format
+
+<?xml version="1.0"?>
+<Purchases>
+	<Purchase>
+		<productType>Apple</productType>
+		<value>2</value>
+		<occurrenses>5</occurrenses>
+	</Purchase>
+	<Purchase>
+		<productType>Samsung</productType>
+		<value>2</value>
+		<occurrenses>5</occurrenses>
+	</Purchase>
+</Purchases>
+
+# Messagege Type 3 - Format
+
+<?xml version="1.0"?>
+<Purchases>
+	<Purchase>
+		<productType>Apple</productType>
+		<value>1</value>
+		<action>add</action>
+	</Purchase>
+	<Purchase>
+		<productType>Samsung</productType>
+		<value>1</value>
+		<action>subtract</action>
+	</Purchase>
+</Purchases>
