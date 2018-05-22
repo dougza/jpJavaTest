@@ -20,7 +20,7 @@ There are some examples of files on folder examples.
 
 # Messagege Type 1 - Format
 
-"<?xml version="1.0"?>
+```xml<?xml version="1.0"?>
 <Purchases>
 	<Purchase>
 		<productType>Apple</productType>
@@ -30,11 +30,12 @@ There are some examples of files on folder examples.
 		<productType>Samsung</productType>
 		<value>1</value>
 	</Purchase>
-</Purchases>"
+</Purchases>
+```
 
 # Messagege Type 2 - Format
 
-"<?xml version="1.0"?>
+```xml<?xml version="1.0"?>
 <Purchases>
 	<Purchase>
 		<productType>Apple</productType>
@@ -46,11 +47,12 @@ There are some examples of files on folder examples.
 		<value>2</value>
 		<occurrenses>5</occurrenses>
 	</Purchase>
-</Purchases>"
+</Purchases>
+```
 
 # Messagege Type 3 - Format
 
-"<?xml version="1.0"?>
+```xml<?xml version="1.0"?>
 <Purchases>
 	<Purchase>
 		<productType>Apple</productType>
@@ -62,4 +64,5 @@ There are some examples of files on folder examples.
 		<value>1</value>
 		<action>subtract</action>
 	</Purchase>
-</Purchases>"
+</Purchases>
+```
